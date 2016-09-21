@@ -1,2 +1,0 @@
-org.apache.taverna.workbench.ui.credentialmanager.startup.InitialiseSSLStartupHook
-org.apache.taverna.workbench.ui.credentialmanager.startup.SetCredManAuthenticatorStartupHook

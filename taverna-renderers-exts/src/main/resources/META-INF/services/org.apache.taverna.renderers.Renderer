@@ -1,3 +1,0 @@
-org.apache.taverna.renderers.SVGRenderer
-org.apache.taverna.renderers.PDFRenderer
-org.apache.taverna.renderers.HTMLBrowserRenderer
