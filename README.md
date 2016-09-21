@@ -15,21 +15,13 @@
    limitations under the License.
 -->
 
-# Apache Taverna Workbench
-
-Desktop UI for designing and running
-[Apache Taverna](http://taverna.incubator.apache.org/) workflows.
-
-Note that this module relies on other
-[Apache Taverna modules](http://taverna.incubator.apache.org/code) for
-the actual workflow execution.
-
+# Biocatalogue perspective for Taverna workbench
 
 ## License
 
 (c) 2007-2014 University of Manchester
 
-(c) 2014-2015 Apache Software Foundation
+(c) 2014-2016 Apache Software Foundation
 
 This product includes software developed at The
 [Apache Software Foundation](http://www.apache.org/).
@@ -49,32 +41,17 @@ Please subscribe to and contact the
 for any questions, suggestions and discussions about
 Apache Taverna.
 
-Bugs and feature plannings are tracked in the Jira
-[Issue tracker](https://issues.apache.org/jira/browse/TAVERNA/component/12326814)
-under the `TAVERNA` component _Taverna Workbench_. Feel free
-to add an issue!
+Bugs and feature requests for the biocatalogue 
+perspective is tracked in the
+[GitHub issue tracker](https://github.com/taverna-extras/taverna-perspective-biocatalogue/issues)
+Feel free to add an issue!
 
 To suggest changes to this source code, feel free to raise a
-[GitHub pull request](https://github.com/apache/incubator-taverna-workbench/pulls).
+[GitHub pull request](https://github.com/taverna-extras/taverna-perspective-biocatalogue/pulls).
+
 Any contributions received are assumed to be covered by the [Apache License
-2.0](https://www.apache.org/licenses/LICENSE-2.0). We might ask you
-to sign a [Contributor License Agreement](https://www.apache.org/licenses/#clas)
-before accepting a larger contribution.
+2.0](https://www.apache.org/licenses/LICENSE-2.0). 
 
-## Disclaimer
-
-Apache Taverna is an effort undergoing incubation at the
-[Apache Software Foundation (ASF)](http://www.apache.org/),
-sponsored by the [Apache Incubator PMC](http://incubator.apache.org/).
-
-[Incubation](http://incubator.apache.org/incubation/Process_Description.html)
-is required of all newly accepted projects until a further review
-indicates that the infrastructure, communications, and decision making process
-have stabilized in a manner consistent with other successful ASF projects.
-
-While incubation status is not necessarily a reflection of the completeness
-or stability of the code, it does indicate that the project has yet to be
-fully endorsed by the ASF.
 
 
 
@@ -111,9 +88,3 @@ To skip the tests (these can be timeconsuming), use:
     mvn clean install -DskipTests
 
 
-If you are modifying this source code independent of the
-Apache Taverna project, you may not want to run the
-[Rat Maven plugin](https://creadur.apache.org/rat/apache-rat-plugin/)
-that enforces Apache headers in every source file - to disable it, try:
-
-    mvn clean install -Drat.skip=true
