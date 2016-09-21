@@ -17,6 +17,26 @@
 
 # Biocatalogue perspective for Taverna workbench
 
+This is a plugin for 
+[Apache Taverna Workbench](https://taverna.incubator.apache.org/download/workbench/)
+that adds a _perspective_ to use 
+https://www.biocatalogue.org/ to browse and use SOAP and REST services from 
+within Taverna.
+
+This code was originally part of Apache Taverna Workbench, but was moved out
+as it had multiple issues:
+
+* Unclear license/attribution for several resources (see [NOTICE](NOTICE) file)
+* Code not fully updated for Taverna Workbench 3.x (e.g. missing OSGi service
+  declarations, not using SCUFL2 model)
+
+Thus the code was moved to the [GitHub organization
+taverna-extras](https://github.com/taverna-extras/);
+it may be merged back into Apache Taverna Workbench
+if the above issues are resolved.
+
+
+
 ## License
 
 (c) 2007-2014 University of Manchester
